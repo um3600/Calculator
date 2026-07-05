@@ -18,8 +18,9 @@ function divide(a, b) {
 }
 function modulus(a , b){
     return a % b;
-
+    
 }
+
 var num1 = prompt("Enter the first number:");
 var num2 = prompt("Enter the second number:");
 
