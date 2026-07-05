@@ -1,4 +1,4 @@
-function add(a , b) {
+function add(a, b) {
     return a + b;
 }
 
@@ -16,16 +16,16 @@ function divide(a, b) {
     }
     return a / b;
 }
-function modulus(a , b){
+
+function modulus(a, b) {
     return a % b;
-    
 }
 
-var num1 = prompt("Enter the first number:");
-var num2 = prompt("Enter the second number:");
+var num1 = Number(prompt("Enter the first number:"));
+var num2 = Number(prompt("Enter the second number:"));
 
-console.log("Your Input Value : " , num1);
-console.log("Your Input Value : " , num2);
+console.log("Your Input Value:", num1);
+console.log("Your Input Value:", num2);
 
 console.log("Addition:", add(num1, num2));
 console.log("Subtraction:", subtract(num1, num2));
